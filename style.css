@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
     width: 80%;
     margin-left: 10%;
     margin-top: 2em;
@@ -11,10 +12,42 @@
     width: 30%;
     margin-bottom: 2em;
   }
+  #logo img {
+    max-height: 100px;
+  }
   #nav {
     width: 70%;
     margin-bottom: 2em;
-    text-align: right;
+    background-color: #BDBDBD;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    padding: 8px;
+    padding-right: 2em;
+    background-color: #BDBDBD;
+    font-size: 20px;
+  }
+  li:last-child{
+    float: right;
+    display: block;
+    padding: 8px;
+  }
+  .contact {
+    border-radius: 40%;
+    font-size: 20px;
+    padding: 10px 24px;
+    background-color: #6699CC;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   #body1 {
     width: 70%;
