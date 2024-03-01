@@ -25,22 +25,22 @@ header {
     width: 100%;
   }
 
-  ul {
+  #nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
 
-  li {
+  #nav li {
     float: left;
   }
 
-  li:last-child {
+  #nav li:last-child {
     margin-right: 0;
   }
 
-  li a {
+  #nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -48,32 +48,46 @@ header {
     text-decoration: none;
   }
 
-  li.current {
+  #nav li.current {
     background: #BDBDBD;
   }
 
 
   #body1 {
-    width: 70%;
+    float: left;
+    width: 50%;
     background-color: #BDBDBD;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   #bodypicture {
+    margin-top: 3%;
+    float: right;
     width: 30%;
-    background-color: #BDBDBD;
+    background-color: #BDBDBD
   }
+
+  #bodypicture img {
+    height: 30em;
+  }
+
   #body2 {
-    width: 100%;
+    display: flex;
+    width: 80%;
     background-color: #BDBDBD;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   footer {
     width: 100%;
-    background-color: #BDBDBD;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    background: #676767;
   }
   body, html {
     margin: 0; 
     padding: 0;
     border: 5px solid #003B6D;
+    background-color: #BDBDBD;
 }
