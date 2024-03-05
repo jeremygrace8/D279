@@ -89,6 +89,32 @@ header {
     background: #676767;
     color: white;
   }
+  .footerLogo {
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 27%;
+    float: left;
+  }
+  .contact {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+
+  .shortcuts {
+    float: right;
+    width: 27%;
+    text-align: right;
+    margin-right: 5%;
+  }
+
+  .shortcuts a{
+    color: white;
+  }
+
+  #footerLogo {
+    max-height: 50px;
+  }
   body, html {
     margin: 0; 
     padding: 0;
