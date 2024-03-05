@@ -81,7 +81,28 @@ header {
   }
 
   #bodypicture img {
-    height: 30em;
+    max-width: 95%;
+  }
+
+  #body2 {
+    background-color: #BDBDBD;
+    vertical-align: top;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #bodypicture2 {
+    margin-top: 3%;
+    margin-left: 2%;
+    float: right;
+    width: 30%;
+    background-color: #BDBDBD;
+  }
+
+  #bodypicture2 img {
+    max-height: 30em;
+    max-width: 95%;
   }
 
   footer {
