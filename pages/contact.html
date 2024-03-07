@@ -25,24 +25,49 @@
         <div id="bodypicture">
             <img src="../pictures/twodogs.jpg" alt="two dogs">
         </div>
-        <div id="body1">
-            <p>Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.
-            <br><br>
-            Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion. 
-            <br><br>
-            Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
-            <br>
-            <ul style="list-style-type:circle;">
-                <li>General Adoption Resources: <a href="https://theshelterpetproject.org/">https://theshelterpetproject.org/</a></li>
-                <li>ASPCA: <a href="https://www.aspca.org/">https://www.aspca.org/</a></li>
-                <li>Fish Rescue: <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a></li>
-                <li>Snake Rescue: <a href="https://savethesnakes.org/snakerescuecall/">https://savethesnakes.org/snakerescuecall/</a></li>
-                <li>Bird Rescue: <a href="https://ftlob.rescuegroups.org/">https://ftlob.rescuegroups.org/</a></li>
-            </ul>
-            <br>
-            We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
-        
-        </p>
+        <div id="contactbody">
+            <form action="submitForm()">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John" required>
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Doe" required>
+            
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-555-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" placeholder="example@email.com" required>
+
+                <label for="timezone">Time Zone</label>
+                <select id="timezone" name="timezone" required>
+                    <option value="0">Select time zone:</option>
+                    <option value="1">US: Eastern Standard Time</option>
+                    <option value="2">US: Central Standard Time</option>
+                    <option value="3">US: Mountain Standard Time</option>
+                    <option value="4">US: Pacific Standard Time</option>
+                    <option value="5">US: Alaska Standard Time</option>
+                    <option value="6">US: Hawaiia Standard Time</option>
+                </select>                
+            
+                <label for="petname">Pet's Name</label>
+                <input type="text" id="petname" name="petname" placeholder="Buster" required>
+            
+                <label for="pettype">Pet Type</label>
+                <select id="pettype" name="pettype" required>
+                    <option value="0">Select a pet type:</option>
+                    <option value="1">Dog</option>
+                    <option value="2">Cat</option>
+                    <option value="3">Bird</option>
+                </select>                
+            
+                <label for="petsage">Pet's Age</label>
+                <input type="text" id="petsage" name="petsage" placeholder="2" required>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
         </div>
     <div class="flex-container">
         <footer>

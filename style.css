@@ -105,6 +105,11 @@ header {
     max-width: 95%;
   }
 
+  ul.bodylist {
+    margin-top: -1em;
+    padding-top: 0;
+  }
+
   footer {
     width: 100%;
     background: #676767;
